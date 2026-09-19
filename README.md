@@ -1,53 +1,42 @@
 # StudyMate AI 🤖
 
-StudyMate AI is a modern educational web application designed to make learning more interactive and personalized.
+A polished educational web-app MVP for personalized learning.
+
+## What it does
+
+StudyMate AI lets a learner choose a subject and quiz size, answer randomized questions, receive instant explanations, and see a final score.
+
+The MVP works without an API key and is designed as a foundation for future AI features.
 
 ## Features
 
-- 📚 Multiple subjects
-- 🎯 Difficulty selection
-- 📝 Interactive quizzes
-- 🔀 Randomized questions
-- 💡 Instant feedback
-- 📊 Progress tracking
-- 🏆 Final score
-- 📱 Responsive interface
+- Subject selection
+- Difficulty UI
+- 5 or 8 question sessions
+- Randomized questions
+- Instant feedback and explanations
+- Progress bar
+- Score calculation
+- Responsive interface
+- AI-ready roadmap
 
-## Subjects
+## Tech stack
 
-Currently available:
+HTML5 · CSS3 · Vanilla JavaScript
 
-- Web Development
-- Database
-- Programming
-- Artificial Intelligence
+## Run
 
-## Tech Stack
+Open `index.html` in a modern browser. No installation is required.
 
-- HTML5
-- CSS3
-- JavaScript
+## Future AI roadmap
 
-No external frameworks or dependencies are required.
+- Generate questions dynamically with an LLM
+- Adapt difficulty from learner performance
+- Explain wrong answers with AI
+- Generate personalized study plans
+- Detect weak topics and recommend learning materials
 
-## How to Run
-
-Simply open `index.html` in a modern web browser.
-
-## Future AI Features
-
-The project is designed as an MVP for future AI integration.
-
-Planned features:
-
-- AI-generated questions
-- Personalized learning paths
-- Adaptive difficulty
-- AI explanations
-- Weak-topic detection
-- Personalized study recommendations
-
-## Project Structure
+## Structure
 
 ```text
 AI-Study-Assistant/
@@ -55,3 +44,16 @@ AI-Study-Assistant/
 ├── style.css
 ├── script.js
 └── README.md
+```
+
+## Product flow
+
+```text
+Choose subject → Generate quiz → Answer → Get feedback → View score
+                                  ↓
+                         Future AI personalization
+```
+
+## License
+
+MIT

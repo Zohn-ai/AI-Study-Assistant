@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StudyMate AI</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><b>✦ StudyMate AI</b><span>● Demo mode</span></header>
+<main>
+<section class="hero"><div><small>AI-POWERED LEARNING CONCEPT</small><h1>Study smarter.<br><i>Learn faster.</i></h1>
+<p>Personalized quizzes, instant feedback and progress tracking — an MVP ready for future AI integration.</p></div>
+<div class="orb">✦</div></section>
+<section class="app">
+<aside><h2>Build your quiz</h2><label>Subject</label>
+<select id="subject"><option value="web">Web Development</option><option value="db">Database</option><option value="code">Programming</option><option value="ai">Artificial Intelligence</option></select>
+<label>Difficulty</label><div class="choices"><button class="level active" data-v="easy">Easy</button><button class="level" data-v="medium">Medium</button><button class="level" data-v="hard">Hard</button></div>
+<label>Questions</label><div class="choices"><button class="num active" data-v="5">5</button><button class="num" data-v="8">8</button></div>
+<button id="start" class="primary">Generate Quiz →</button></aside>
+<section class="card"><div id="empty"><div class="big">◎</div><h2>Ready to learn?</h2><p>Choose your settings and generate a quiz.</p></div>
+<div id="quiz" hidden><div class="head"><div><small id="cat"></small><h2 id="q"></h2></div><span id="count"></span></div><div class="bar"><div id="bar"></div></div>
+<div id="answers"></div><div id="feedback" class="feedback" hidden></div><div class="bottom"><span id="score">Score: 0</span><button id="next" class="primary small" disabled>Next →</button></div></div>
+<div id="result" hidden class="result"><div class="big">✓</div><small>QUIZ COMPLETE</small><h2 id="resultTitle"></h2><div class="score" id="final"></div><p id="message"></p><button id="again" class="primary">Try another quiz</button></div></section></section>
+<section class="features"><div><b>01</b><strong>Personalized</strong><p>Choose subject and difficulty.</p></div><div><b>02</b><strong>Instant feedback</strong><p>Get explanations after answers.</p></div><div><b>03</b><strong>AI-ready</strong><p>Designed for future AI integration.</p></div></section>
+</main><footer>StudyMate AI · MVP · HTML · CSS · JavaScript</footer>
+<script src="script.js"></script></body></html>
